@@ -7,10 +7,12 @@
 body {
     margin: auto;
     padding-top: 10%;
-    max-width: 70%;
+    max-width: 65%;
     background-image: url("./images/cape-may-105590.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 p {
     font-family: var(--default-font-family);
@@ -29,7 +31,7 @@ h1, h2 {
 }
 li {
     font-size: 20px;
-    max-width: 125px;
+    width: 125px;
     text-transform: uppercase;
     font-weight: 450;
 }
@@ -37,6 +39,11 @@ li:hover{
     color:rgb(29, 227, 58);
     font-weight: 500;
     text-shadow: 1px 1px black;
+}
+aside ol {
+    padding-left: 20px;
+    margin: 0; 
+    list-style-position: inside; 
 }
 /*CLASSES*/
 .navigation {
@@ -82,23 +89,28 @@ li:hover{
 }
 .content_container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: stretch;
 }
 .main_content_container {
     background-color: antiquewhite;
     text-align: center;
-    float: left;
-    width: 80%;
+    width: 75%;
     padding: 20px;
     box-sizing: border-box;
 }
-.aside_content_container {
+.aside_content_container { /*BOX DOESN'T MATCH WITH main_content HEIGHT*/
+    width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.aside_child { /**/
     background-color: rgb(231, 235, 186);
-    float: right;
-    width: 20%;
-    padding: 16px;
+    padding: 75px;
+    width: 100%;
     font-family: var(--default-font-family);
+    box-sizing: border-box;
+    overflow: auto;
 }
 .footer_content {
     background-color: rgb(25, 158, 176);
@@ -108,7 +120,18 @@ li:hover{
 }
 /*IDs*/
 #main_cities {
-    color:aliceblue;
+    color:rgb(246, 176, 176);
     font-size: 25px;
-    text-shadow: 2px 2px green;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .main_content_container, .aside_content_container {
+        width: 100%;
+        padding: 10px;
+    }
+    .content_container {
+        flex-direction: column;
+    }
 }
