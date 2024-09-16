@@ -1,0 +1,114 @@
+/* VARIABLES */
+:root {
+    --title-color: rgb(75, 224, 120);
+    --default-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* GENERAL */
+body {
+    margin: auto;
+    padding-top: 10%;
+    max-width: 70%;
+    background-image: url("./images/cape-may-105590.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    font-family: var(--default-font-family);
+    font-size: large;
+}
+footer p {
+    margin: 0;
+}
+h1, h2 {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--default-font-family);
+    text-transform: uppercase;
+    text-shadow: 2px 1px rgb(39, 117, 62);
+    color: var(--title-color);
+}
+li {
+    font-size: 20px;
+    max-width: 125px;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+li:hover{
+    color:rgb(29, 227, 58);
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+}
+/*CLASSES*/
+.navigation {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: bisque;
+}
+.menu_option {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+    transition: all 0.2s ease-in;
+}
+.menu_option:hover {
+    color:rgb(223, 138, 138); 
+}
+.webpage_title {
+    position: relative;
+    text-align: center;
+    padding: 60px;
+    background: rgba(0, 0, 0, 40%);
+}
+.webpage_title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./images/flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.njlogo {
+    margin-top: -6px;
+    width: 5%;
+    height: 5%;
+}
+.content_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.main_content_container {
+    background-color: antiquewhite;
+    text-align: center;
+    float: left;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.aside_content_container {
+    background-color: rgb(231, 235, 186);
+    float: right;
+    width: 20%;
+    padding: 16px;
+    font-family: var(--default-font-family);
+}
+.footer_content {
+    background-color: rgb(25, 158, 176);
+    clear:both;
+    font-family: var(--default-font-family);
+    text-align: center;
+}
+/*IDs*/
+#main_cities {
+    color:aliceblue;
+    font-size: 25px;
+    text-shadow: 2px 2px green;
+}
