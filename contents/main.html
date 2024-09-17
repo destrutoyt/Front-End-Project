@@ -19,8 +19,8 @@
             </div>
         </header>
         <main>
-            <div class="content_container">
-                <div class="main_content_container">
+            <div class="main_content_container">
+                <div class="left_content">
                     <section>
                         <h3>ABOUT NEW JERSEY</h3>
                         <p>New Jersey (NJ), located in the northeastern region, is one of the 50 states of The United States Of America, 
@@ -28,22 +28,30 @@
                             million people living in NJ. <br><br>The rural areas of NJ are the most visited because of it's diversity in plants, flowers, and animals. NJ is also known as the <b>State Of Flowers</b>.
                             <br>On top of that, there are many states around NJ including: New York, Pennsylvania, Delaware, Connecticut, and Maryland. 
                         </p>
-                        <img src="../images/NJstatelogo.png" href="NJ Logo" class="njlogo">
+                        <img src="../images/NJstatelogo.png" alt="NJ Logo" class="njlogo">
                     </section>
                 </div>
-                <div class="aside_content_container">
-                    <div class="aside_child">
-                        <aside>
-                            <h3 id="main_cities">CITIES</h3>
-                            <ol style="list-style:square;">
-                                <li>Trenton</li>
-                                <li>Jersey City</li>
-                                <li>Carteret</li>
-                            </ol>
-                        </aside>
-                    </div>
+                <div class="right_content">
+                    <aside id="aside_test">
+                        <h3 id="main_cities">CITIES</h3>
+                        <ol style="list-style:square;">
+                            <li>Trenton</li>
+                            <li>Jersey City</li>
+                            <li>Carteret</li>
+                        </ol>
+                        <form class="form_design" id="rate_form"> <!--Create a popup when form is submitted using JS-->
+                            <p style="font-weight: 480;">RATE THE WEBSITE</p>
+                            <input type="radio" name="rating" id="rating1" value="good">
+                            <label for="rating1">GOOD!</label>
+                        
+                            <input type="radio" name="rating" id="rating2" value="meh">
+                            <label for="rating2">MEH!</label><br>
+                            
+                            <input type="submit" value="Submit" id="submit_button">
+                        </form>
+                    </aside>
                 </div>
-            <div>
+            </div>
         </main>
         <footer class="footer_content">
             <div>
