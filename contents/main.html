@@ -2,15 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>New Jersey</title>
-        <link rel="stylesheet" href="../style.css">
+        <title>New Jersey, USA</title>
+        <link rel="stylesheet" href="../main_styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="../mainScript.js"></script>
     </head>
     <body>
         <header>
             <nav class="navigation">
-                <a class="menu_option" href="main.html">Home</a>
-                <a class="menu_option" href="main.html">Capital</a>
+                <a class="menu_option active" href="main.html">Home</a>
+                <a class="menu_option" href="capital.html">Capital</a>
                 <a class="menu_option" href="main.html">Cities</a> <!-- ADD A DROPDOWN MENU -->
             </nav>
             <div class="webpage_title">
@@ -33,25 +34,23 @@
                 </div>
                 <div class="right_content">
                     <aside id="aside_test">
-                        <h3 id="main_cities">CITIES</h3>
+                        <h3 id="cities_title">CITIES</h3>
                         <ol style="list-style:square;">
                             <li>Trenton</li>
                             <li>Jersey City</li>
                             <li>Carteret</li>
                         </ol>
-                        <form class="form_design" id="rate_form"> <!--Create a popup when form is submitted using JS-->
+                        <form class="form_design" id="rate_form" onsubmit="getRating()">
                             <p style="font-weight: 480;">RATE THE WEBSITE</p>
                             <input type="radio" name="rating" id="rating1" value="good">
                             <label for="rating1">GOOD!</label>
-                        
                             <input type="radio" name="rating" id="rating2" value="meh">
                             <label for="rating2">MEH!</label><br>
-                            
                             <input type="submit" value="Submit" id="submit_button">
                         </form>
                     </aside>
                 </div>
-            </div>
+            </div>                
         </main>
         <footer class="footer_content">
             <div>

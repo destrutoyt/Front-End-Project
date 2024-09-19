@@ -2,8 +2,8 @@ HTML REQUIREMENTS: ❌
 
 On each webpage, include:
     - a <title> in the <head> ✅
-    - relevant image ❌
-    - consistent menu ❌
+    - relevant image ✅
+    - consistent menu ✅
 
 Include the following semantic elements on each webpage:
     - <header> with introductory content ✅
@@ -14,7 +14,7 @@ Include the following semantic elements on each webpage:
 Include each element within website:
     - a <link> that opens an external website in a new window or tab using the <target> attribute ❌
     - Ordered list with at least 3 list items ✅
-    - Unordered list with at least three list items ❌
+    - Unordered list with at least three list items ✅
     - A <table> consisting of 3-6 columns and 3-6 rows to organize content ❌
 
 CSS REQUIREMENTS: ❌
@@ -40,13 +40,13 @@ Create a webpage that contains a form by doing the following:
     - INCLUDE JAVASCRIPT CODE that verifies the email fields match when a user enters a second email address ❌
 
 
-CONTENTS REQUIREMENT: ❌
+CONTENTS REQUIREMENT: ✅
 The information for the capital and each city can vary but must include the following:
-•   the city population ❌
-•   the year the city was incorporated ❌
-•   the region of the state in which the city is located ❌
-•   the classification of the city: urban, suburban, and/or rural ❌
-•   the average income level of the city compared to the rest of the state ❌
+•   the city population ✅
+•   the year the city was incorporated ✅
+•   the region of the state in which the city is located✅
+•   the classification of the city: urban, suburban, and/or rural ✅
+•   the average income level of the city compared to the rest of the state ✅
 
 
 ✅ ❌
