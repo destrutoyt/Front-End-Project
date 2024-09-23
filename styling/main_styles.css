@@ -11,7 +11,7 @@ body {
     margin: auto;
     padding-top: 10%;
     max-width: 65%;
-    background-image: url("./images/cape-may-105590.jpg");
+    background-image: url("../images/cape-may-105590.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -97,11 +97,26 @@ form {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(./images/flowers.jpg);
+    background-image: url(../images/flowers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     z-index: -1;
+}
+.trenton::before {
+    background-image: url(../images/Trenton_Main_Image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carteret::before {
+    background-image: url(../images/town_hall_carteret.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.jersey::before {
+    background-image: url(../images/Flag_of_New_Jersey.svg);
+    background-size: cover;
+    background-position: center;
 }
 .njlogo {
     max-width: 5%;

@@ -1,8 +1,11 @@
 :root {
     --default-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.webpage_title::before {
-    background-image: url(./images/Trenton_Main_Image.jpg);
+.left_content {
+    flex: 50%;
+}
+.right_content {
+    flex: 30%;
 }
 .photos_container {
     display: flex;
