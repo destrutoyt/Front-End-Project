@@ -15,9 +15,9 @@
     gap: 10%;
     animation: fade-out-in 1s ease;
 }
-.town_picture {
-    max-width: 335px;
-    max-height: 335px;
+.city_pictures {
+    max-width: 340px;
+    max-height: 340px;
 }
 .dollar_number {
     color:rgb(0, 167, 64);

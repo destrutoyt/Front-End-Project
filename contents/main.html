@@ -10,9 +10,15 @@
     <body>
         <header>
             <nav class="navigation">
-                <a class="menu_option active" href="main.html">Home</a>
-                <a class="menu_option" href="capital.html">Capital</a>
-                <a class="menu_option" href="main.html">Cities</a> <!-- ADD A DROPDOWN MENU -->
+                <a href="main.html" class="menu_option active">Home</a>
+                <a href="capital.html" class="menu_option">Capital</a>
+                <div class="dropdown">
+                    <a href="#" class="menu_option dropbtn">Cities</a>
+                    <div class="dropdown-content">
+                        <a href="jersey_city.html">Jersey City</a>
+                        <a href="newark.html">Newark</a>
+                    </div>
+                </div>
             </nav>
             <div class="webpage_title">
                 <h1>New Jersey</h1>
@@ -25,7 +31,7 @@
                     <section>
                         <h3>ABOUT NEW JERSEY</h3>
                         <p>New Jersey (NJ), located in the northeastern region, is one of the 50 states of The United States Of America, 
-                            specifically, the 3rd state in <a href="thefactfile.org/united-states-by-statehood/">Order Of Statehood</a>. New Jersey is divided in 21 counties and 564 municipalities. Disperse in all 21 counties, there are 9.29
+                            specifically, the 3rd state in <a class="reference" href="thefactfile.org/united-states-by-statehood/">Order Of Statehood</a>. New Jersey is divided in 21 counties and 564 municipalities. Disperse in all 21 counties, there are 9.29
                             million people living in NJ. <br><br>The rural areas of NJ are the most visited because of it's diversity in plants, flowers, and animals. NJ is also known as the <b>State Of Flowers</b>.
                             <br>On top of that, there are many states around NJ including: New York, Pennsylvania, Delaware, Connecticut, and Maryland. 
                         </p>
@@ -33,28 +39,24 @@
                     </section>
                 </div>
                 <div class="right_content">
-                    <aside id="aside_test">
+                    <aside>
                         <h3 id="cities_title">CITIES</h3>
-                        <ol style="list-style:square;">
-                            <li><a href="capital.html">Trenton</a></li> <!-- override <a> element css properties. Keep propertiees like <li>-->
-                            <li>Jersey City</li>
-                            <li>Carteret</li>
+                        <ol class="city_list">
+                            <li><a href="capital.html">Trenton</a></li>
+                            <li><a href="jersey_city.html">Jersey City</a></li>
+                            <li><a href="newark.html">Carteret</a></li>
                         </ol>
-                        <form class="form_design" id="rate_form" onsubmit="getRating()">
-                            <p style="font-weight: 480;">RATE THE WEBSITE</p>
-                            <input type="radio" name="rating" id="rating1" value="good">
-                            <label for="rating1">GOOD!</label>
-                            <input type="radio" name="rating" id="rating2" value="meh">
-                            <label for="rating2">MEH!</label><br>
-                            <input type="submit" value="Submit" id="submit_button">
-                        </form>
+                        <h4>HAVE ANY QUESTIONS?</h4>
+                        <a href="form.html" target="_blank">
+                            <button class="form_button">FILL OUT OUR FORM!</button>
+                        </a> 
                     </aside>
                 </div>
             </div>                
         </main>
         <footer class="footer_content">
             <div>
-                <p>Website Created By Miguel G.</p>
+                <p>Website Developed & Design By Miguel G.</p>
             </div>
         </footer>
     </body>

@@ -12,19 +12,19 @@ Include the following semantic elements on each webpage:
     - <Aside> to display info related to the content ✅
 
 Include each element within website:
-    - a <link> that opens an external website in a new window or tab using the <target> attribute ❌
+    - a <link> that opens an external website in a new window or tab using the <target> attribute ✅
     - Ordered list with at least 3 list items ✅
     - Unordered list with at least three list items ✅
     - A <table> consisting of 3-6 columns and 3-6 rows to organize content ❌
 
-CSS REQUIREMENTS: ❌
+CSS REQUIREMENTS: ✅
 
 On a external css, apply each of the following styles for text:
     - ONE font-family declaration ✅
     - a :hover pseudo-class to create a rollover effect for navigation buttons ✅
 
 Create a "float" property to position at least ONE HTML element to the side of another (Use for <aside>) ✅
-Add "absolute" and "relative" positioning in at least one area of the website ❌
+Add "absolute" and "relative" positioning in at least one area of the website ✅
 
 Add the following selectors:
     - ONE element selector to style the HTML elements ✅

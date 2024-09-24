@@ -1,6 +1,3 @@
-- Items inside <ol> by main.html MUST be clickable and send user to correspondent webpage.
-    Override <a> properties. It has to match <li> properties. Inherit A to B?
-
 - Get ONE more Carteret picture and THREE for Jersey City
 
 - Complete all FACTS from each city
@@ -8,9 +5,11 @@
 - In form.html, modify width and height of ID=user_question.
     Create a custom design for the <form> (Make sure the design SLAPS!!!!)
 
+- For all <a>, make sure their attribute is set to _blank
+
 DO NOT COMMIT AND MERGE TO MAIN IF IT'S NOT STABLE!!!!!
-Commit message: (STABLE) Form added. Cities and Info Updated. Code cleaned and optimized.
+Commit message: (STABLE) - Dropdown menu added. Code Organized. New and Updated Content
 
 Date Created: 9/20/2024
-Date Updated: NONE
+Date Updated: 9/23/2024
 Completion Date: IN PROGRESS

@@ -10,9 +10,15 @@
     <body>
         <header>
             <nav class="navigation">
-                <a class="menu_option" href="main.html">Home</a>
-                <a class="menu_option" href="capital.html">Capital</a>
-                <a class="menu_option active" href="main.html">Cities</a> <!-- ADD A DROPDOWN MENU -->
+                <a href="main.html" class="menu_option">Home</a>
+                <a href="capital.html" class="menu_option">Capital</a>
+                <div class="dropdown">
+                    <a href="#" class="menu_option dropbtn active">Cities</a>
+                    <div class="dropdown-content">
+                        <a href="jersey_city.html">Jersey City</a>
+                        <a href="newark.html">Newark</a>
+                    </div>
+                </div>
             </nav>
             <div class="webpage_title jersey">
                 <h1 style="color: gold;">Jersey City</h1>
@@ -21,15 +27,15 @@
         </header>
         <main>
             <div class="main_content_container">
-                <div class="left_content" style="background-color: rgb(239, 221, 176);"> <!--Overrides container background color -->
+                <div class="left_content" style="background-color: rgb(176, 239, 200);"> <!--Overrides container background color -->
                     <section>
                         <h3>ABOUT TRENTON</h3>
-                        <p>Trenton, the official capital of NJ, is located near the geoprahic center of the state. It was incorporated in November 13, 1792. Trenton belongs to the Mercer County region. It is categorized as an urban city and since 2023, there are more than <a href="https://en.wikipedia.org/wiki/Trenton,_New_Jersey">89,620 people</a> living in Trenton.<br><br> 
-                            In addition, <a href="https://www.deptofnumbers.com/income/new-jersey/trenton/">average household income is BELOW the state average</a>. Putting this in numbers, the median family income in Trenton was about <span class="dollar_number">$115,227</span>, which is slightly higher than NJ's median of <span class="dollar_number">$110,102</span>
+                        <p>Trenton, the official capital of NJ, is located near the geoprahic center of the state. It was incorporated in November 13, 1792. Trenton belongs to the Mercer County region. It is categorized as an urban city and since 2023, there are more than <a href="https://en.wikipedia.org/wiki/Trenton,_New_Jersey" class="reference">89,620 people</a> living in Trenton.<br><br> 
+                            In addition, <a href="https://www.deptofnumbers.com/income/new-jersey/trenton/" class="reference">average household income is BELOW the state average</a>. Putting this in numbers, the median family income in Trenton was about <span class="dollar_number">$115,227</span>, which is slightly higher than NJ's median of <span class="dollar_number">$110,102</span>
                         </p>
                         <div class="photos_container">
-                            <img src="../images/Trenton_1.jpg" alt="Trenton FLAG" class="town_picture">
-                            <img src="../images/Trenton_2jpg.jpg" alt="Trenton FLAG" class="town_picture">
+                            <img src="../images/Trenton_1.jpg" alt="Trenton FLAG" class="city_pictures">
+                            <img src="../images/Trenton_2jpg.jpg" alt="Trenton FLAG" class="city_pictures">
                         </div>
                     </section>
                 </div>
@@ -40,9 +46,11 @@
                             <li class="custom_unordered_style">Trenton used to be the capital of The United States in 1784.</li><br>
                             <li class="custom_unordered_style">Fact 2</li><br>
                             <li class="custom_unordered_style">Fact 3</li><br>
-                            <li class="custom_unordered_style">Fact 4</li><br>
-                            <li class="custom_unordered_style">Fact 5</li>
                         </ul>
+                        <h4>HAVE ANY QUESTIONS?</h4>
+                        <a href="form.html" target="_blank">
+                            <button class="form_button">FILL OUT OUR FORM!</button>
+                        </a> 
                     </aside>
                 </div>
             </div>                
