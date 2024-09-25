@@ -1,4 +1,4 @@
-HTML REQUIREMENTS: ❌
+HTML REQUIREMENTS: ✅
 
 On each webpage, include:
     - a <title> in the <head> ✅
@@ -15,7 +15,7 @@ Include each element within website:
     - a <link> that opens an external website in a new window or tab using the <target> attribute ✅
     - Ordered list with at least 3 list items ✅
     - Unordered list with at least three list items ✅
-    - A <table> consisting of 3-6 columns and 3-6 rows to organize content ❌
+    - A <table> consisting of 3-6 columns and 3-6 rows to organize content ✅
 
 CSS REQUIREMENTS: ✅
 

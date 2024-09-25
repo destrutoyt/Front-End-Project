@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>New Jersey, USA</title>
         <link rel="stylesheet" href="../styling/main_styles.css">
+        <link rel="stylesheet" href="../styling/capital_cities_style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="../mainScript.js"></script>
     </head>
@@ -40,12 +41,37 @@
                 </div>
                 <div class="right_content">
                     <aside>
-                        <h3 id="cities_title">CITIES</h3>
-                        <ol class="city_list">
-                            <li><a href="capital.html">Trenton</a></li>
-                            <li><a href="jersey_city.html">Jersey City</a></li>
-                            <li><a href="newark.html">Carteret</a></li>
-                        </ol>
+                        <table id="state_data">
+                            <h3>CITY DATA OVERVIEW</h3>
+                            <thead>
+                                <tr>
+                                    <th>City</th>
+                                    <th>Median Income</th>
+                                    <th>Population</th>
+                                    <th>Classification</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span>City</span>Trenton</td>
+                                    <td class="dollar_number"><span>Median Income</span>$115,227</td>
+                                    <td><span>Population</span>89,620</td>
+                                    <td><span>Classification</span>Urban</td>
+                                </tr>
+                                <tr>
+                                    <td><span>City</span>Jersey City</td>
+                                    <td class="dollar_number"><span>Median Income</span>$115,227</td>
+                                    <td><span>Population</span>89,620</td>
+                                    <td><span>Classification</span>Rural</td>
+                                </tr>
+                                <tr>
+                                    <td><span>City</span>Newark</td>
+                                    <td class="dollar_number"><span>Median Income</span>$52,888</td>
+                                    <td><span>Population</span>305,339</td>
+                                    <td><span>Classification</span>Urban</td>
+                                </tr>
+                            </tbody>
+                        </table>
                         <h4>HAVE ANY QUESTIONS?</h4>
                         <a href="form.html" target="_blank">
                             <button class="form_button">FILL OUT OUR FORM!</button>
