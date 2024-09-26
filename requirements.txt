@@ -31,13 +31,13 @@ Add the following selectors:
     - ONE class selector that is used at least TWO times ✅
     - ONE ID selector to format specific elements of a page ✅
 
-JAVASCRIPT REQUIREMENTS: ❌
+JAVASCRIPT REQUIREMENTS: ✅
 
 Create a webpage that contains a form by doing the following:
     - Include text fields for the user first/last name, email address, as well as 
-    confirmation field for the email address and a text box that allows the user to ask a question ❌
-    - Ensure ALL fields contain placeholders ❌
-    - INCLUDE JAVASCRIPT CODE that verifies the email fields match when a user enters a second email address ❌
+    confirmation field for the email address and a text box that allows the user to ask a question ✅
+    - Ensure ALL fields contain placeholders ✅
+    - INCLUDE JAVASCRIPT CODE that verifies the email fields match when a user enters a second email address ✅
 
 
 CONTENTS REQUIREMENT: ✅
