@@ -30,7 +30,7 @@
     text-transform:none;
 }
 @media (max-width: 895px) {
-    .custom_unordered_style {
+    .custom_list-item_style {
         width: 250px;
         font-size: 15px;
     }
@@ -42,7 +42,7 @@
     }
 }
 @media (max-width: 510px) {
-    .custom_unordered_style {
+    .custom_list-item_style {
         width: 170px;
         font-size: 15px;
     }
