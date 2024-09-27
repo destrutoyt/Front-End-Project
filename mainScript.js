@@ -1,5 +1,5 @@
 // Get references to the submit button and form
-let submitButton = document.getElementById("submit_button");
+let submitButton = document.getElementById("submit_question");
 let form = document.getElementById("question_form");
 
 // Get references for inputs

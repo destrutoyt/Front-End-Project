@@ -9,10 +9,10 @@
     box-sizing: border-box;
 }
 body {
-    margin: auto;
-    padding-top: 10%;
+    margin: 50px auto auto auto;
+    padding: 5px;
     max-width: 65%;
-    background-image: url("../images/cape-may-105590.jpg");
+    background-image: url("../images/cape-may-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -194,19 +194,18 @@ form {
 }
 
 /* FORM STYLE */
-form {
+#question_form {
     font-family: var(--default-font-family);
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
 }
-form label {
+#question_form label {
     display: block;
     margin-bottom: 5px;
 }
-form input, form textarea {
-    display: block;
-    width: 100%;
+#question_form input, #question_form textarea {
+    width: 65%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -223,6 +222,22 @@ textarea {
 }
 input[type=text], input[type=email] {
     border: 1px solid #000000;
+}
+#submit_question {
+    margin: 5px;
+    padding: 15px;
+    background-color:#1aafaa;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: 2px solid rgb(136, 237, 146);
+    float: right;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: var(--default-font-family);
+}
+#submit_question:hover {
+    opacity: 0.8;
 }
 
 /* CUSTOM TABLE STYLE (For main.html only) */
@@ -280,7 +295,7 @@ input[type=text], input[type=email] {
 
 /* IDs */
 /* STYLE FOR FEEDBACK */
-#submit_button, #submit_question {
+#submit_button {
     margin: 15px;
     padding: 5px;
     background-color:#1aafaa;
@@ -288,6 +303,7 @@ input[type=text], input[type=email] {
     text-transform: uppercase;
     font-weight: 500;
     border: 2px solid rgb(136, 237, 146);
+    font-family: var(--default-font-family);
 }
 #submit_button:hover {
     opacity: 0.8;
@@ -325,6 +341,17 @@ input[type=text], input[type=email] {
         display: block;
     }
 }
+
+@media (max-width: 768px) {
+    #submit_question {
+        float: none;
+        font-size: 14px;
+    }
+    h1, h2 {
+        font-size: 21px;
+    }
+}
+
 @media (max-width: 510px) {
     .menu_option {
         font-size: 17px;
